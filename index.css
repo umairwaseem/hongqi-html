@@ -1,6 +1,5 @@
 * {
-    -webkit-tap-highlight-color: transparent!important;
-    font-family: -apple-system, system-ui, STHeiti, "Microsoft YaHei", Arial;
+    font-family: Open Sans;
 }
 
 .logo {
@@ -164,4 +163,13 @@
 
 .selected-car .display-car img {
     align-self: flex-end;
+}
+
+.discover-more h1 {
+    margin: 50px 0px;
+    text-align: center;
+}
+
+.discover-more p {
+    text-align: center;
 }
