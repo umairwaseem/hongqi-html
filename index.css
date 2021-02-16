@@ -48,3 +48,67 @@
         padding-left: 0;
     }
 }
+
+
+/*Explore Hongqi*/
+
+.explore-hongqi h1 {
+    text-align: center;
+    margin: 50px 0px;
+}
+
+.explore-hongqi .nav-link {
+    color: #000;
+}
+
+.explore-hongqi .nav-item {
+    position: relative;
+}
+
+.explore-hongqi .nav-item .active:after {
+    content: "";
+    width: 0;
+    height: 0;
+    border-left: 8px solid transparent;
+    border-right: 8px solid transparent;
+    border-top: 10px solid #000;
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.explore-hongqi .nav-pills .nav-link.active,
+.nav-pills .show>.nav-link {
+    color: #000;
+    background-color: #fff;
+}
+
+.explore-hongqi .car-box {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 100px;
+}
+
+.explore-hongqi .car-box .car {
+    flex: 1;
+    height: 250px;
+}
+
+.explore-hongqi .car-box .car h3 {
+    font-size: 16px;
+    text-align: center;
+    margin-top: 15px;
+}
+
+.explore-hongqi .car-box .car img {
+    width: 300px;
+}
+
+
+/*Selected Car*/
+
+.selected-car {
+    background-color: #181322;
+    padding: 100px 0;
+}
