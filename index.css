@@ -291,3 +291,24 @@
     text-align: center;
     margin-top: 50px;
 }
+
+
+/*Footer*/
+
+.footer-top {
+    background-color: #000;
+    padding: 50px 0;
+}
+
+.footer-top h3 {
+    color: #fff;
+    font-size: 18px;
+}
+
+.footer-bottom {
+    background-color: #1F1F1F;
+    padding: 10px 0;
+    color: rgb(153, 153, 153);
+    text-align: center;
+    font-size: 12px;
+}
