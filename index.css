@@ -1,3 +1,8 @@
+* {
+    -webkit-tap-highlight-color: transparent!important;
+    font-family: -apple-system, system-ui, STHeiti, "Microsoft YaHei", Arial;
+}
+
 .logo {
     width: 70px;
 }
@@ -111,4 +116,52 @@
 .selected-car {
     background-color: #181322;
     padding: 100px 0;
+}
+
+.selected-car .area {
+    background-color: #fff;
+    padding: 50px;
+}
+
+.selected-car .area .top-title {
+    width: 150px;
+    display: block;
+}
+
+.selected-car .area .car-title {
+    width: 150px;
+    margin-top: 50px;
+}
+
+.selected-car .car-color-box {
+    margin-top: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.selected-car .car-color-box .car-color {
+    flex: 1;
+    margin-right: 10px;
+}
+
+.selected-car .car-color-box .car-color img {
+    width: 70px;
+}
+
+.selected-car .car-color-box .car-color span {
+    text-align: center;
+    font-size: 14px;
+    display: block;
+}
+
+.selected-car .display-car {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-direction: column;
+    align-items: baseline;
+}
+
+.selected-car .display-car img {
+    align-self: flex-end;
 }
