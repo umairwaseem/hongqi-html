@@ -6,7 +6,7 @@ function onth () {
 	audoCplay=true
 }
 
-var imgPath = "img/";
+var imgPath = "loader/img/";
  
 
 ///////////////////////////////////
