@@ -5,10 +5,10 @@ $(document).ready(function() {
 
         console.log(image);
 
-        $('.selected-car1').fadeOut(500, function() {
+        $('.selected-car1').fadeOut(250, function() {
             $('.selected-car1').attr('src', 'assets/h5/' + image);
         });
 
-        $('.selected-car1').fadeIn(500);
+        $('.selected-car1').fadeIn(1000);
     })
 })

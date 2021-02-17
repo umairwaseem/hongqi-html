@@ -1,44 +1,46 @@
 * {
-    font-family: Open Sans;
+  font-family: Open Sans;
 }
-
+.overflow-hidden-wrap {
+  overflow: hidden;
+  display: none;
+}
 .logo {
-    width: 70px;
+  width: 70px;
 }
 
-.navbar-nav>li>a::after {
-    content: '|';
-    padding-left: 10px;
+.navbar-nav > li > a::after {
+  content: "|";
+  padding-left: 10px;
 }
 
-.navbar-nav>li:last-child>a::after {
-    content: none;
+.navbar-nav > li:last-child > a::after {
+  content: none;
 }
 
 #carousel-example-generic {
-    height: 480px;
-    width: 848px;
+  height: 480px;
+  width: 848px;
 }
 
 .carouselTitle {
-    font-size: 75px;
-    font-weight: 100;
-    color: #e60012;
-    text-shadow: 0 1px 2px #000;
-    position: absolute;
-    top: 60px;
-    left: 40%;
-    padding: 5px 20px;
+  font-size: 75px;
+  font-weight: 100;
+  color: #e60012;
+  text-shadow: 0 1px 2px #000;
+  position: absolute;
+  top: 60px;
+  left: 40%;
+  padding: 5px 20px;
 }
 
 .explore {
-    color: #fff;
-    text-transform: capitalize;
-    display: inline-block;
-    padding: 0 10px;
-    border-bottom: solid 3px #D3B01C;
+  color: #fff;
+  text-transform: capitalize;
+  display: inline-block;
+  padding: 0 10px;
+  border-bottom: solid 3px #d3b01c;
 }
-
 
 /* .slide-left {
     background-image: url(assets/slide-left-grey.png);
@@ -63,272 +65,265 @@
 } */
 
 @media (max-width: 767px) {
-    .navbar-nav>li>a::after {
-        content: none;
-        padding-left: 0;
-    }
+  .navbar-nav > li > a::after {
+    content: none;
+    padding-left: 0;
+  }
 }
-
 
 /*Explore Hongqi*/
 
 .explore-hongqi {
-    background-color: #F5FAFD;
+  background-color: #f5fafd;
 }
 
 .explore-hongqi h1 {
-    text-align: center;
-    margin: 50px 0px;
+  text-align: center;
+  margin: 50px 0px;
 }
 
 .explore-hongqi .nav-link {
-    color: #000;
+  color: #000;
 }
 
 .explore-hongqi .nav-item {
-    position: relative;
+  position: relative;
 }
 
 .explore-hongqi .nav-item .active:after {
-    content: "";
-    width: 0;
-    height: 0;
-    border-left: 8px solid transparent;
-    border-right: 8px solid transparent;
-    border-top: 10px solid #000;
-    position: absolute;
-    top: 100%;
-    left: 50%;
-    transform: translateX(-50%);
+  content: "";
+  width: 0;
+  height: 0;
+  border-left: 8px solid transparent;
+  border-right: 8px solid transparent;
+  border-top: 10px solid #000;
+  position: absolute;
+  top: 100%;
+  left: 50%;
+  transform: translateX(-50%);
 }
 
 .explore-hongqi .nav-pills .nav-link.active,
-.nav-pills .show>.nav-link {
-    color: #000;
-    background-color: #F5FAFD;
+.nav-pills .show > .nav-link {
+  color: #000;
+  background-color: #f5fafd;
 }
 
 .explore-hongqi .car-box {
-    display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
+  display: flex;
+  justify-content: space-between;
+  margin-top: 100px;
 }
 
 .explore-hongqi .car-box .car {
-    flex: 1;
-    height: 250px;
+  flex: 1;
+  height: 250px;
 }
 
 .explore-hongqi .car-box .car h3 {
-    font-size: 16px;
-    text-align: center;
-    margin-top: 15px;
+  font-size: 16px;
+  text-align: center;
+  margin-top: 15px;
 }
 
 .explore-hongqi .car-box .car img {
-    width: 300px;
+  width: 300px;
 }
-
 
 /*Selected Car*/
 
 .selected-car {
-    background: url(assets/select-bg.png);
-    padding: 100px 0;
+  background: url(assets/select-bg.png);
+  padding: 100px 0;
 }
 
 .selected-car .area {
-    background-color: #fff;
-    padding: 50px;
+  background-color: #fff;
+  padding: 50px;
 }
 
 .selected-car .area .top-title {
-    width: 150px;
-    display: block;
+  width: 150px;
+  display: block;
 }
 
 .selected-car .area .car-title {
-    width: 150px;
-    margin-top: 50px;
+  width: 150px;
+  margin-top: 50px;
 }
 
 .selected-car .car-color-box {
-    margin-top: 70px;
-    display: flex;
-    flex-direction: row;
+  margin-top: 70px;
+  display: flex;
+  flex-direction: row;
 }
 
 .selected-car .car-color-box .car-color {
-    flex: 1;
-    margin-right: 10px;
+  flex: 1;
+  margin-right: 10px;
 }
 
 .selected-car .car-color-box .car-color img {
-    width: 70px;
+  width: 70px;
 }
 
 .selected-car .car-color-box .car-color span {
-    text-align: center;
-    font-size: 14px;
-    display: block;
+  text-align: center;
+  font-size: 14px;
+  display: block;
 }
 
 .selected-car .display-car {
-    display: flex;
-    align-items: center;
-    justify-content: flex-end;
-    flex-direction: column;
-    align-items: baseline;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  flex-direction: column;
+  align-items: baseline;
 }
 
 .selected-car .display-car img {
-    align-self: flex-end;
+  align-self: flex-end;
 }
-
 
 /*Discover more*/
 
 .discover-more h1 {
-    margin: 50px 0px;
-    text-align: center;
+  margin: 50px 0px;
+  text-align: center;
 }
 
 .discover-more p {
-    text-align: center;
+  text-align: center;
 }
 
 .discover-more .card-text {
-    text-align: left;
+  text-align: left;
 }
-
 
 /*Service Center*/
 
 .service-center {
-    background-color: #fff;
-    padding-bottom: 100px;
-    background: url(assets/services.png);
+  background-color: #fff;
+  padding-bottom: 100px;
+  background: url(assets/services.png);
 }
 
 .service-center h1 {
-    text-align: center;
-    margin: 50px 0px;
+  text-align: center;
+  margin: 50px 0px;
 }
 
 .service-center p {
-    text-align: center;
+  text-align: center;
 }
 
 .service-center .service-box {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 50px;
-    padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 50px;
+  padding-left: 20px;
 }
 
 .service-center .service-box .service {
-    flex: 0 50%;
-    padding: 0 20px 10px 10px;
+  flex: 0 50%;
+  padding: 0 20px 10px 10px;
 }
 
 .service-center .service-box .service i {
-    font-size: 50px;
-    color: #03a9f4;
+  font-size: 50px;
+  color: #03a9f4;
 }
 
 .service-center .service-box .service h3 {
-    font-size: 20px;
-    margin-top: 10px;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 .service-center .service-box .service p {
-    font-size: 15px;
-    text-align: left;
+  font-size: 15px;
+  text-align: left;
 }
-
 
 /*local Center*/
 
 .local-center {
-    background-color: #fff;
-    padding-bottom: 50px;
-    background: url(assets/local.png);
+  background-color: #fff;
+  padding-bottom: 50px;
+  background: url(assets/local.png);
 }
 
 .local-center h1 {
-    text-align: center;
-    margin: 50px 0px;
+  text-align: center;
+  margin: 50px 0px;
 }
 
 .local-center p {
-    text-align: center;
+  text-align: center;
 }
 
 .local-center .service-box {
-    display: flex;
-    flex-wrap: wrap;
-    margin-top: 150px;
-    padding-left: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 150px;
+  padding-left: 20px;
 }
 
 .local-center .service-box .service {
-    flex: 0 50%;
-    padding: 0 20px 100px 0px;
+  flex: 0 50%;
+  padding: 0 20px 100px 0px;
 }
 
 .local-center .service-box .service i {
-    font-size: 50px;
-    color: #03a9f4;
+  font-size: 50px;
+  color: #03a9f4;
 }
 
 .local-center .service-box .service h3 {
-    font-size: 20px;
-    margin-top: 10px;
+  font-size: 20px;
+  margin-top: 10px;
 }
 
 .local-center .service-box .service p {
-    font-size: 15px;
-    text-align: left;
+  font-size: 15px;
+  text-align: left;
 }
-
 
 /*hongqi brochure*/
 
 .hongqi-brochure {
-    background: url(assets/hongqi-legacy.jpg) no-repeat;
-    background-size: cover;
-    height: 50vh;
+  background: url(assets/hongqi-legacy.jpg) no-repeat;
+  background-size: cover;
+  height: 50vh;
 }
 
 .hongqi-brochure h1 {
-    color: #fff;
-    text-align: center;
-    margin-top: 100px;
+  color: #fff;
+  text-align: center;
+  margin-top: 100px;
 }
 
 .hongqi-brochure h3 {
-    color: #fff;
-    text-align: center;
-    margin-top: 50px;
+  color: #fff;
+  text-align: center;
+  margin-top: 50px;
 }
-
 
 /*Footer*/
 
 .footer-top {
-    background-color: #000;
-    padding: 50px 0;
+  background-color: #000;
+  padding: 50px 0;
 }
 
 .footer-top h3 {
-    color: #fff;
-    font-size: 18px;
+  color: #fff;
+  font-size: 18px;
 }
 
 .footer-bottom {
-    background-color: #1F1F1F;
-    padding: 10px 0;
-    color: rgb(153, 153, 153);
-    text-align: center;
-    font-size: 12px;
+  background-color: #1f1f1f;
+  padding: 10px 0;
+  color: rgb(153, 153, 153);
+  text-align: center;
+  font-size: 12px;
 }
