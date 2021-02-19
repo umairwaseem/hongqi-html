@@ -3,11 +3,22 @@
 }
 body {
   overflow-x: hidden;
-  display: none;
 }
-.overflow-hidden-wrap {
+header, section {
+  opacity: 0;
+}
+#loader {
+  z-index: 999;
+  opacity: 1;
+}
+#loading-wrap {
+  position: absolute;
+}
+.carousel, header {
+  z-index: -1;
+}
+.overflow {
   overflow: hidden;
-  display: none;
 }
 .logo {
   width: 70px;
