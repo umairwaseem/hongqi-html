@@ -7,6 +7,9 @@ body {
 header, section {
   opacity: 0;
 }
+.navbar {
+  height: 88px;
+}
 #loader {
   z-index: 999;
   opacity: 1;

@@ -47,7 +47,7 @@ $(document).ready(function() {
     loader.addEventListener("onAniEvt2",function() {
         $('body').removeClass('overflow');
         $('section, header').css('opacity', '1');
-        $('#loading-wrap').fadeOut();
+        $('#loading-wrap > img').fadeOut(1000);
     });
 
     
