@@ -11,4 +11,12 @@ $(document).ready(function() {
 
         $('.selected-car1').fadeIn(1000);
     })
+
+    var jsHeight = document.documentElement.clientHeight;
+    console.log(jsHeight);
+
+    var loader = initLoading(document.getElementById('loader'));
+
+    loader.setP(100);
+
 })
