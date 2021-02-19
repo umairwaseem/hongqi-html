@@ -3,6 +3,7 @@
 }
 body {
   overflow-x: hidden;
+  display: none;
 }
 .overflow-hidden-wrap {
   overflow: hidden;
