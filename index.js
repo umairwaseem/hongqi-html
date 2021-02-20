@@ -41,13 +41,16 @@ $(document).ready(function() {
     .resize();
 
     var loader = initLoading(document.getElementById('loader'));
+    //var cars = initLoading(document.getElementById('cars'));
 
     loader.setP(100);
 
     loader.addEventListener("onAniEvt2",function() {
         $('body').removeClass('overflow');
         $('section, header').css('opacity', '1');
-        $('#loading-wrap > img').fadeOut(1000);
+        $('#loading-wrap > img').fadeOut(1000, function(){
+          loader.playCarAni();
+        });
     });
 
     

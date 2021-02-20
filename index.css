@@ -33,6 +33,9 @@ header, section {
 .navbar-nav > li:last-child > a::after {
   content: none;
 }
+.navbar-nav .nav-link {
+  text-transform: uppercase;
+}
 #carousel-example-generic {
   height: 480px;
   width: 848px;
