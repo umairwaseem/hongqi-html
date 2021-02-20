@@ -10,6 +10,9 @@ header, section {
 .navbar {
   /* height: 88px; */
 }
+.social {
+  padding-right: 37px;
+}
 .social p {
   font-size: 20px;
   margin: 0;

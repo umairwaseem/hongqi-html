@@ -442,7 +442,7 @@ function initLoading(p) {
             tmpRt1 - 0.3,
             {
               // x: pointArr[i].ox * 0.6 + starPoint.x + 28,
-              x: pointArr[i].ox * 0.6 + starPoint.x - 600, // 鍚戝乏鍙虫眹鑱�  x杞�
+              x: pointArr[i].ox * 0.6 + starPoint.x - 810, // 鍚戝乏鍙虫眹鑱�  x杞�
               ease: Power1.easeInOut,
             },
             0.005 * i + 7.1 + 0.3
@@ -476,7 +476,7 @@ function initLoading(p) {
         autoAlpha: 1,
         top: 14.5,
         // left: 284,
-        left: 248,
+        left: 40,
         scale: 92 / 151,
         height: 0,
         transformOrigin: "50% 0%",

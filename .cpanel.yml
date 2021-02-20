@@ -1,5 +1,0 @@
----
-deployment:
-  tasks:
-    - export DEPLOYPATH=/home/nationsol/public_html/hongqi-html
-    - /bin/cp -R images $DEPLOYPATH
