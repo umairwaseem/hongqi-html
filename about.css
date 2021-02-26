@@ -1,0 +1,31 @@
+header,
+section {
+  opacity: 1;
+}
+.about-one {
+  background-color: #f5fafd;
+  padding: 50px 0;
+}
+.about-one.grey {
+    background-color: #d8e5ec;
+}
+.about-one h1 {
+  text-align: center;
+  margin: 50px 0px;
+}
+.about-one h3 {
+    text-shadow: 1px 1px 10px rgb(95, 95, 95);
+}
+.about-one p {
+    text-align: justify;
+    vertical-align: middle;
+    margin-top: 30px;
+    text-shadow: 2px 2px 10px rgb(95, 95, 95);
+}
+.about-one img {
+    box-shadow: 2px 2px 5px rgb(95, 95, 95);
+}
+.carousel-item {
+    height: 500px;
+    overflow: hidden;
+}
